@@ -1,0 +1,427 @@
+﻿/* .banner{
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    float:left;
+
+} */
+
+/* .tam{
+    margin-left: 12%;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.font {
+    font-family: 'Black Ops One', cursive;
+}
+
+.font_dang_ki {
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2.font_style {
+    font-family: 'Great Vibes', cursive;
+}
+
+/*.btn_Rec {*/
+/* Style ="background:#f396ad; border:#f396ad; color: white; width:100%; border-radius:15px; "*/
+/*background:#f396ad; 
+   border:#f396ad; color: white; 
+   width:100%; 
+   border-radius:15px; 
+}*/
+
+
+ul .header_contain {
+    margin-left: 78px;
+    margin-bottom: -24px;
+}
+
+li #Logo {
+}
+
+.img-link:hover {
+    background-color: white !important;
+}
+
+.Logo {
+    width: 60px;
+    height: auto;
+}
+
+.header, #Logo {
+    padding: auto 0 !important;
+}
+
+/* Menu */
+.menu {
+    width: 100%;
+    background-color: none;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+ul {
+    background-color: none;
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+    li a, .item-contact span {
+        padding: 14px 5px;
+        text-decoration: none;
+        color: #6e6e6e;
+        display: inline-block;
+    }
+
+        li a:hover, .item-contact:hover, .item-contact span:hover {
+            cursor: pointer;
+            background-color: rgba(240, 124, 152,.7);
+            border-radius: 15px;
+            color: white;
+        }
+
+.submenu {
+    display: none;
+    height: auto;
+    background-color: rgba(240, 124, 152,.9);
+    border-radius: 10px;
+    position: absolute;
+    z-index:1 !important;
+}
+
+.submenu_contact {
+    width: 280px;
+    tritem-contactnsform: tritem-contactnslateX(-40%);
+    z-index:1 !important;
+}
+
+
+.parentMenu:hover .submenu {
+    display: block;
+    border-radius: 10px;
+}
+
+.submenu a {
+    display: block;
+}
+
+.carousel {
+    z-index: 1;
+}
+
+
+/* Vùng trái */
+.vungTrai {
+    width: 250px;
+    height: auto;
+    background-color: rgba(240, 124, 152,.8);
+    float: left;
+    color: white;
+    text-align: center;
+    /* margin: 30px; */
+    margin-left: 6%;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+    .vungTrai a {
+        display: block;
+        text-decoration: none;
+        padding: 23px 68px;
+        /* margin-left: 20px; */
+        text-align: left;
+        color: white;
+    }
+
+        .vungTrai a:hover {
+            background-color: rgba(240, 124, 152,.8);
+        }
+
+/* Vùng phải */
+.vungPhai {
+    width: 600px;
+    height: 500px;
+    background-color: brown;
+    float: left;
+    padding-left: 10px;
+}
+
+/* Viền */
+.borders {
+    width: auto;
+    height: auto;
+    border: 3px solid rgb(240, 124, 152 );
+    background-color: none;
+    border-radius: 15px;
+    padding-left: 0.5%;
+}
+
+
+
+
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgba(165, 42, 42,.8);
+    float: left;
+    text-align: center;
+    justify-content: center;
+    border-radius: 0px !important;
+}
+
+    .footer:hover {
+        border-radius: 0 !important;
+    }
+
+/* hiệu ứng */
+.action_btn {
+    color: white;
+    background-color: rgba(240, 124, 152,.8);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+    .action_btn:hover {
+        scale: 1.05;
+        color: white;
+    }
+
+.box {
+    border-radius: none !important;
+}
+
+.page-link:hover {
+    border-radius: 0 !important;
+}
+
+/* Đăng kí */
+.size_form_dang_ki {
+    width: 50%;
+    position: relative;
+    left: 28%;
+}
+
+.khungDangKi {
+    display: grid;
+    grid-template-columns: 40% 93%;
+    position: relative;
+    left: -3%;
+}
+
+.thuocTinhKhungDangKi {
+    position: relative;
+    left: 4%;
+}
+
+
+    .thuocTinhKhungDangKi a {
+        text-decoration: none;
+        position: relative;
+        left: 124%;
+    }
+
+.khuVucPhimTat {
+    display: flex;
+    justify-content: center;
+}
+
+.linkLienKetDangNhap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 27%;
+}
+
+.iconLinkLienKetDangNhap {
+    display: contents;
+    align-items: center;
+}
+
+.size_form_Admin {
+    transform: translateX(43%);
+    width: 58%;
+}
+
+
+/*Thuộc tính cho thẻ*/
+.proBook {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.proAuthor {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.proPrice {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 15px;
+    font-family: sans-serif;
+}
+
+.proOgPrice {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: sans-serif;
+    text-decoration:line-through;
+    color:gray;
+}
+
+.discount
+{
+    font-size: 17px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 0% 2%;
+}
+
+.btn_addCart {
+    margin-top: 12px;
+    background: #f7577e;
+    color: white;
+}
+
+/*ProductView*/
+.proNameView {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 15px;
+    font-family: ui-monospace;
+}
+
+.proPriceView {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 15px;
+    font-family: sans-serif;
+}
+
+.proOgPriceView {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 15px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.product-view-supplier {
+    display: inline-block;
+    width: 60%;
+    padding-right: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*TĂNG GIẢM SỐ LƯỢNG*/
+/*$( document ).ready(function() {    
+$('.btn-number').click(function(e){        
+e.preventDefault();                
+var fieldName = $(this).attr('data-field');        
+var type      = $(this).attr('data-type');        
+var input = $("input[name='"+fieldName+"']");        
+var currentVal = parseInt(input.val());        
+if (!isNaN(currentVal)) {            
+if(type == 'minus') {                
+var minValue = parseInt(input.attr('min'));                 
+if(!minValue) minValue = 1;                
+if(currentVal > minValue) {                    
+input.val(currentVal - 1).change();                
+}                 
+if(parseInt(input.val()) == minValue) {                    
+$(this).attr('disabled', true);                
+}                
+} 
+else if(type == 'plus') {                
+var maxValue = parseInt(input.attr('max'));                
+if(!maxValue) maxValue = 9999999999999;                
+if(currentVal < maxValue) {                    
+input.val(currentVal + 1).change();                
+}                
+if(parseInt(input.val()) == maxValue) {                    
+$(this).attr('disabled', true);                
+}                
+}        
+} 
+else {            
+input.val(0);        
+}    
+});    
+$('.input-number').focusin(function(){       
+$(this).data('oldValue', $(this).val());    
+});    
+$('.input-number').change(function() {                
+var minValue =  parseInt($(this).attr('min'));        
+var maxValue =  parseInt($(this).attr('max'));        
+if(!minValue) minValue = 1;        
+if(!maxValue) maxValue = 9999999999999;        
+var valueCurrent = parseInt($(this).val());                
+var name = $(this).attr('name');        
+if(valueCurrent >= minValue) {            
+$(".btn-number[data-type='minus'][data-field='"+name+"']").removeAttr('disabled')        
+} 
+else {            
+alert('Sorry, the minimum value was reached');            
+$(this).val($(this).data('oldValue'));        
+}        
+if(valueCurrent >= maxValue) {            
+$(".btn-number[data-type='plus'][data-field='"+name+"']").removeAttr('disabled')        
+} else {            
+alert('Sorry, the maximum value was reached');            
+$(this).val($(this).data('oldValue'));        
+}                    
+});    
+$(".input-number").keydown(function (e) {            
+// Allow: backspace, delete, tab, escape, enter and .            
+if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||                 
+// Allow: Ctrl+A                
+(e.keyCode == 65 && e.ctrlKey === true) ||                  
+// Allow: home, end, left, right                
+(e.keyCode >= 35 && e.keyCode <= 39)) {                     
+// let it happen, don't do anything                     
+return;            
+}            
+// Ensure that it is a number and stop the keypress            
+if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {                
+e.preventDefault();            
+}    
+});
+});*/
+/*___________________*/
+
+
+
+
